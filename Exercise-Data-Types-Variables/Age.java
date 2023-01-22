@@ -7,18 +7,6 @@ public class Age {
         Scanner scanner = new Scanner(System.in);
         int age = Integer.parseInt(scanner.nextLine());
 
-        //0-2 – baby;
-        //
-        //· 3-13 – child;
-        //
-        //· 14-19 – teenager;
-        //
-        //· 20-65 – adult;
-        //
-        //· >=66 – elder;
-        //
-        //· All the values are inclusive.
-
         if (age <= 2 && age >= 0) {
             System.out.println("baby");
         } else if (age > 2 && age <= 13) {
